@@ -1,0 +1,24 @@
+#list1 li:hover{
+    
+    color: red;
+}
+
+
+/*
+    Listedeki tek elemanların rengini kırmızı yapar
+    fontunu 25px yapar
+*/
+#list2 li:nth-child(odd):hover{
+    color: red;
+    font-size: 25px;
+}
+
+/*
+    Listedeki çift elemanların rengini mavi yapar
+    boyutunu 20px yapar
+    yapar
+*/
+#list2 li:nth-child(even):hover{
+    color: blue;
+    font-size: 20px;
+}

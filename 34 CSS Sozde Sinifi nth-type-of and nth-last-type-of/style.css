@@ -1,0 +1,60 @@
+/*
+
+NTH-TYPE-OF ve NTH-LAST-TYPE-of
+
+Child'taki gibi istisnalar yoktur.
+
+parent tag içindeki tüm farklı etiketleri, 
+kendi içinde sıralar.
+
+örnek
+div, a, a, div, p, p, div, p, a, p, div
+
+olarak sıralanan etiketleri
+kendi içinde
+1div, 2div, 3div, 4div
+1a, 2a, 3a, 4a
+1p, 2p, 3p, 4p
+
+Böylikle toplu seçime izin verir.
+
+Diğer kurallar ve syntaxi, nth-child'taki gibi
+aynıdır
+
+*/
+
+/*ID'si bir olan parent */
+/* div ikinci
+    p'nin üçüncü 
+    a'nın dördüncüsünü
+seçsin */
+
+#bir div:nth-of-type(2){
+    color: red;
+}
+
+#bir p:nth-of-type(3){
+    color: blue;
+}
+
+#bir a:nth-of-type(4){
+    color: green;
+}
+
+/*ID'si bir olan parent sonra*/
+/* div ikinci
+    p'nin üçüncü 
+    a'nın dördüncüsünü
+seçsin */
+
+#iki div:nth-last-of-type(2){
+    color: red;
+}
+
+#iki p:nth-last-of-type(3){
+    color: blue;
+}
+
+#iki a:nth-last-of-type(4){
+    color: green;
+}

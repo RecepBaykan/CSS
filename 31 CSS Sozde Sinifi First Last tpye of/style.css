@@ -1,0 +1,53 @@
+/*
+
+:first-child;
+
+Bir etiketin, kendinden fazla aynı
+tipteki etiketi bir paretn etiket içinde
+barındırıyorsa o zaman o aynı etiketler arasındaki
+ilk çocuğu bulmaya çalışırız
+
+*/
+
+/* Parent'ı içindeki sıralanan divler ara-
+sındaki ilkini seçer*/
+/*
+First child'taki gibi önünde divler en önünde başka
+etiket varsa seçmemezlik etmez.
+*/
+
+
+div:first-of-type{
+    color:red
+}
+
+/* Parent'ı içinde sıralanan li etiketleri arasındaki
+ilk child'ı seçer
+*/
+li:first-of-type{
+    color: purple;
+}
+
+
+/*
+:last-child;
+Bu seçici de ilk çocuğubulmaz, son çocuğu bulmaya çalışır.
+Diğer istisnalar, bu seçici için de geçerlidir.
+*/
+
+/*Parent içinde sıralana div'ler arasındaki
+sonuncu olanı seçsin*/
+/*Last child'deki gibi en sonda başka etiket varsa
+seçmemezlik etmez*/
+div:last-of-type{
+    color: blue;
+}
+
+/* Parent içindeki sıralanan li'ler arasındaki en son
+child'ı seçsin*/
+li:last-child{
+    color: green;
+}
+
+
+

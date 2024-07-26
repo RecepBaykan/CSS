@@ -1,0 +1,35 @@
+/*
+
+    a = etiket/sinif/id
+
+    Nitelik secici ~= Deger
+
+    a[nitelik ~= Deger]
+
+    İçinde içerdiği değer kelime olarak var ise
+
+
+    deger -> olur
+    deger_ ->olmaz
+    deger digerDeger -> olur
+    digerDeger deger -> olur
+    _deger -> olmaz
+    digerDeger_deger -> olmaz
+    digerDegerdeger -> olmaz
+
+    
+*/
+
+div[class~="box"]{
+    background-color: yellow;
+}
+
+p[alt~="paragraf"]{
+    background-color: black;
+    color: white;
+}
+
+h3[alt~="baslik"]{
+    background-color: purple;
+    color: yellow;
+}

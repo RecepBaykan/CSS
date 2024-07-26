@@ -1,0 +1,36 @@
+/*
+
+    a |= etiket/sinif/id
+
+    Nitelik secici |= Deger
+
+    a[nitelik |= Deger]
+
+    İçinde basladğı kelimeyi bulan
+    secici
+
+
+    deger -> olur
+    deger_ ->olmaz
+    degerdigerDeger -> olmaz
+    digerDeger deger -> olmaz
+    deger-digerDeger -> olur
+    _deger -> olmaz
+    digerDeger_deger -> olmaz
+    digerDegerdeger -> olmaz
+
+    
+*/
+
+div[class|="box"]{
+    background-color: yellow;
+}
+
+p[alt|="paragraf"]{
+    background-color: red;
+    color: pink;
+}
+
+h3[alt|="baslik"]{
+    background-color: green;
+}

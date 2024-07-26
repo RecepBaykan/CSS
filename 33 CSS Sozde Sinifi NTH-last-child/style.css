@@ -1,0 +1,90 @@
+/*
+:nth-last-child(belirteç),
+    Bu sınıf seçici, belirli kurallarda
+    bir parent içinde tagi yada taglari kolayca
+    seçmeye olanak sağlar
+
+    First ve last child'ın sahip olduğu istisna
+    bunda da mevcuttur.
+
+    Bu yüzden barındığı parent'ta, barınılan child
+    dışında etiket olmaması daha iyi olur.
+
+    syntax; parant child:nth-last-child(belirteç)
+*/
+
+/*ID'si bir olan*/
+/* Birinci çocuk seçilsin */
+#bir li:nth-last-child(1){
+    background-color: yellow;
+    color: darkblue;
+
+}
+
+/* Sadece sırası tek sayı olanları seçsin*/
+
+#bir li:nth-last-child(odd){
+    color: red;
+    background-color: chartreuse;
+}
+
+/*Sadece sırası çift sayı olanları seçsin*/
+
+#bir li:nth-last-child(even){
+    color: black;
+    background-color: cornflowerblue;
+}
+
+/*********************************/
+
+/*ID'si iki olan */
+/* her 3 sırada bir seçsin*/
+
+#iki li:nth-last-child(3n){
+    color: red;
+    /*
+        Matematik
+        n = 0, 3n = 0, 1.adım
+        n = 1, 3n = 3, 2.adım
+        n = 2, 3n = 6  3.adım
+        .. ..
+    */
+}
+
+/*2.sıradan başlasın ve 3 sırada bir seçsin*/
+
+#iki li:nth-last-child(3n + 2){
+    color: blue;
+    background-color: yellow;
+    /*
+        Matematik
+        n = 0, 3n + 2 = 2, 1.adım
+        n = 1, 3n + 2 = 5, 2.adım
+        n = 2, 3n + 2 = 8, 3. adım
+        .. .. .. .. .. .. 
+    */
+}
+
+/*******************************************/
+
+/* ID'si uc olan*/
+/* 4. sıradan sonra hepsini seçsin*/
+
+#uc li:nth-last-child(n+4){
+    color: red;
+}
+
+/****************************/
+
+/* ID'si dort olan*/
+/* 12. sıradan once hepsini seçsin*/
+
+#dort li:nth-last-child(-n+12){
+    color: red;
+}
+
+/* Id'si bes olan */
+/* 5 ile 11 arasındakileri seçsin */
+#bes li:nth-last-child(n+5):nth-last-child(-n+11){
+    color: red;
+}

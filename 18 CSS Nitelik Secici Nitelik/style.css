@@ -1,0 +1,24 @@
+/*
+
+    a = etiket/sinif/id
+
+    Nitelik secici
+
+    a[nitelik]
+
+    
+*/
+
+div[class]
+{
+    background-color: yellow;
+}
+
+h3[alt]{
+    background-color: purple;
+    color: yellow;
+}
+p[alt]{
+    background-color: green;
+    color: white;
+}

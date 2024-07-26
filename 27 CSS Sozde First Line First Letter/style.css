@@ -1,0 +1,29 @@
+/*
+first-letter, ilk harfi seçer ve ona stil uygular
+*/
+
+#baslik1::first-letter{
+    color: red;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*
+first-line, ilk satırı seçer ve ona stil uygular
+*/
+
+#baslik2::first-line{
+    color: white;
+    background: green;
+    font-size: 30px;
+}
+
+/*
+
+Önemli Not:
+Satır ile kastedilen HTML'deki görünen gibi satır
+değil yada br etiketi ile ayıralan değil.
+Ekranın bir satırı yani.
+
+*/

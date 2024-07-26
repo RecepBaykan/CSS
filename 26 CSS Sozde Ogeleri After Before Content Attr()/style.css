@@ -1,0 +1,30 @@
+div{
+    background: yellow;
+}
+
+/*
+
+Content, HTML etiketlerine içerik göndermek
+için kullanılır. Java'da String misali çalışır.
+
+attr(nitelik); HTML'deki nitelik değerlerini almaya
+olanak sağlayan özellik. Seçilem tag'in nitelik
+özellikleri alınır
+
+*/
+
+/*Etiketten sonraki değer*/
+div::after{
+    content: 'Kutudan Sonraki değer '
+    'kutu adı: ' attr(data-isim);
+    background: purple;
+    color: white;
+}
+
+/* Etiketten önceki değer */
+div::before{
+    content: 'Kutudan önceki değer' ' kutu basligi: '
+    attr(title);
+    background-color: green;
+    color: gold;
+}

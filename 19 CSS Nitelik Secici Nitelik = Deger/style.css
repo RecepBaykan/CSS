@@ -1,0 +1,24 @@
+/*
+
+    a = etiket/sinif/id
+
+    Nitelik secici = Deger
+
+    a[nitelik = Deger]
+
+    
+*/
+
+div[class ="box"]
+{
+    background-color: yellow;
+}
+
+h3[alt="baslik1"]{
+    background-color: purple;
+    color: yellow;
+}
+p[alt]{
+    background-color: green;
+    color: white;
+}

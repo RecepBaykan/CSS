@@ -1,0 +1,44 @@
+/*
+
+    a ^= etiket/sinif/id
+
+    Nitelik secici *= Deger
+
+    a[nitelik *= Deger]
+
+    İçinde başlayan kelimeyi bulur ama boşluk
+    kabul etmez yada sonda, ortada olmayacak
+    secici
+
+
+    deger -> olur
+    deger_ ->olur
+    degerdigerDeger -> olur
+    digerDeger deger -> olur
+    deger-digerDeger -> pşur
+    _deger -> olur
+    digerDeger_deger -> olur
+    digerDegerdeger -> olur
+
+    eğer i harfi koymazsan
+    Deger -> olmaz
+
+    koyarsan
+
+    Deger -> olur
+
+    
+*/
+
+div[class*="box" i]{
+    background-color: yellow;
+}
+
+p[alt *="paragraf" i]{
+    background-color: red;
+    color: pink;
+}
+
+h3[alt*="baslik" i]{
+    background-color: green;
+}

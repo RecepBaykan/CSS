@@ -1,0 +1,14 @@
+h1{
+    color: red;
+}
+
+h2, b{
+    color: blue;
+    font-size: 40px;
+
+}
+
+i, h3{
+    color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

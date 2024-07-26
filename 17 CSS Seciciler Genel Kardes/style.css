@@ -1,0 +1,44 @@
+/*
+
+    Genel Kardeş Secici
+
+    a = etiket/sinif/id
+
+    a ~ a
+
+    Seçilen a'dan sonra seçilen a'lar seçilir.
+
+    Önemli not;
+    a'nın içinden bir etiket değil!, sonra gelen
+   Not: çocuk ve torun olmaz.
+
+*/
+
+/*div etiketinden hemen sonra gelen tüm p etiketleri*/
+div ~ p{
+    color: purple;
+}
+
+/* ul etiketinden hemen sonra gelen div etiketi */
+
+ul ~ div {
+    color: green;
+}
+
+/* ul etiketinden hemen sonra gelen p etiketleri */
+/* Html dosyasında böyle bir yapı olmadığı için çalışmaz*/
+ul ~ p{
+    color: blue;
+}
+
+/* paragraf sınıfından hemen sonra gelen ol etiketi*/
+
+.paragraf ~ ol{
+    font-size: 24px;
+}
+
+
+h3 ~ div{
+    font-family: 'Courier New', Courier, monospace;
+}
+

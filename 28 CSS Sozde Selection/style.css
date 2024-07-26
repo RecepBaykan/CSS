@@ -1,0 +1,25 @@
+/*
+::selection, fare ile seçilen kısımları değiştirmeye 
+olanak sağlayan yapı
+
+*/
+
+/*Tüm sayfada seçilenleri kırmızı yapar*/
+::selection{
+    color:red;
+   
+}
+
+/*Seçilen etiketi/sinifi/tagi rengini değiştirmeye
+yarar*/
+#baslik1::selection{
+    color: blue;
+}
+
+#baslik2::selection{
+    color: green;
+}
+
+#baslik3::selection{
+    color: purple;
+}

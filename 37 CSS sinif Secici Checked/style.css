@@ -1,0 +1,23 @@
+/*Alttaki öğe bir ders niteliğinde
+
+İlk önce niteliğe göre etiketi seçtik
+Daha sonra checked olan'dan sonra seçilecek
+etiketi belirledik
+
+*/
+
+input[type="radio"]:checked + span{
+    color: red;
+}
+
+#labelYazi::before{
+    content: attr(data-show);
+}
+
+input[type="checkbox"]:checked~#paragraf{
+    display: none;
+}
+
+input[type="checkbox"]:checked~#labelYazi::before{
+    content: attr(data-hide);
+}

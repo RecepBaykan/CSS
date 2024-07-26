@@ -1,0 +1,53 @@
+/*
+
+Cocuk seçici;
+
+    a = etiket/sinif/id
+
+    a > cocuk(a)
+
+    Kendi içinde sonra gelen
+    cocuk a seçmeye olanak tanır.
+
+    Bazı etiketler çocuktan sayılmaz ve atlanır.
+    örnek; br etiketi
+
+*/
+
+
+
+/*p etiketinin b çocuğu*/
+p > b{
+    color: red;
+}
+
+/* div etiketinin b çocuğu*/
+/*HTML dosyasında böyle bir yapı yoktur
+çalışmaz*/
+div > b{
+    font-size: 24px;
+}
+
+/* div etiketinin p çocuğunu b çocuğu*/
+
+div > p > b{
+    color: blue;
+}
+
+/* id'si kutu olanın h4 çocuğu */
+#kutu > h4{
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* paragraf sınıfının i çocuğu*/
+.paragraf > i{
+    font-size: 24px;
+}
+
+/* paragraf sınıfının i çocuğunun b çocuğu */
+.paragraf > i > b{
+    color: green;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,17 @@
+#ana_menu{
+    height: max-content;
+    width: max-content;
+    background-color: green;
+    color: white;
+}
+
+
+
+#ana_menu:hover #alt_menu{
+    display: block;
+}
+
+
+#alt_menu{
+    display: none;
+}

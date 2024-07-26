@@ -1,0 +1,27 @@
+.anabaslik{
+   
+    
+    width:150px;
+    height: 40px;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+.altbaslik{
+
+    color: red;
+    height: 10px;
+    width: 100px;
+    margin: 10px;
+    padding: 40px;
+}
+
+p{
+    color: blue;
+    width: 100px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}

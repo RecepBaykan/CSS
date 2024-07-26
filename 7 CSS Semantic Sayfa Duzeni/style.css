@@ -1,0 +1,43 @@
+#sayfa{
+    border-style: solid;
+    background-color: cyan;
+    width: 400px;
+    margin: auto;
+    
+}
+
+#sayfa header{
+    border-style: solid;
+    border-color: black;
+    background-color: yellow;
+    width: 380px;
+    margin: auto;
+
+}
+
+#sayfa nav{
+    border-style: solid;
+    border-color: black;
+    background-color: violet;
+    width: 380px;
+    height: 30px;
+    margin: auto;
+}
+
+#sayfa article{
+    border-style: solid;
+    border-color: black;
+    background-color: yellowgreen;
+    width: 380px;
+    height: 300px;
+    margin: auto;
+}
+
+#sayfa footer{
+    border-style: solid;
+    border-color: black;
+    background-color:steelblue;
+    width: 380px;
+    height: 50px;
+    margin: auto;
+}

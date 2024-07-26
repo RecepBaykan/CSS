@@ -1,0 +1,50 @@
+/*
+
+Torun seçici;
+
+    a = etiket/sinif/id
+
+    a torun(a) torun(a)
+
+    Kendi içinde hemen sonra gelen
+    cocuk, torun a seçmeye olanak tanır.
+
+    Bazı etiketler torun ve çocuktan sayılmaz ve atlanır.
+    örnek; br etiketi
+
+*/
+
+/* div içinde p torunu seçsin */
+div p{
+    color: red;
+}
+
+/* div içinde h4 torunu seçsin */
+div h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* div içinde id'si ilce olan etiketi seçsin */
+div #ilce{
+    color: purple;
+}
+
+/* paragraf sınıfı içinde b etiketi seçisin */
+.paragraf b{
+    color: blue
+}
+
+/* kutu id'sinin p çocuğunun u torununu seçsin */
+#kutu > p u{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    font-size: 54px;
+}
+
+/* div etiketinin ol torununun ilce id'li etiketinin
+ul etiketinin li çocuğunu seçsin. */
+
+div ol #yeni_ilce > ul > li{
+    font-size: 44px;
+    color: blue;
+}

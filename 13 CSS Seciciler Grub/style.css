@@ -1,0 +1,44 @@
+/*
+
+Grub seçici;
+
+    a = etiket/sinif/id
+
+    a, a, a, a, ...
+
+    a seçilip virgül konulduktan sonra
+    herhangi bir a daha seçilirse bir grup.
+    Gruba bir üye daha eklemek için virgül
+    konulur ve hernagib bir a daha seçilir.
+    İstenilen kadar grub oluşturulur.
+
+*/
+
+/* tüm p ve tüm b seçilsn*/
+
+
+p, b{
+    color: Red;
+}
+
+/* tüm h1 ve b seçilsn */
+h1, p{
+    font-size: 24px;
+}
+
+/* kutu sınıfı ve ol etiketi seçilsin*/
+.kutu, ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+/* ilce id ve i etiketi*/
+#ilce, i{
+    color: black;
+}
+
+/* paragraf sınıfı, kutu etiketi ve u etiketi*/
+
+.paragraf, #kutu, u{
+    color: green;
+}

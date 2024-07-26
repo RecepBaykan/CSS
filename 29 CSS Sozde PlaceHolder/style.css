@@ -1,0 +1,24 @@
+/*
+
+::placeholder, placeholder niteliğinin
+özelliklerini değiştirir
+
+*/
+
+/*Tüm placeholder etiketine sahip
+olan etiketleri seçer*/
+::placeholder{
+    color: red;
+    font-size: 15px;
+}
+
+/*Etiket/sinif/id taglarindaki
+placeholder niteliklerini seçer*/
+
+#yas::placeholder{
+    color:blue;
+}
+
+textarea::placeholder{
+    color: purple;
+}

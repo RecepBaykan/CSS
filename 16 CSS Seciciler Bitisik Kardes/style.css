@@ -1,0 +1,60 @@
+/*
+
+    Bitisik Kardeş Secici
+
+    a = etiket/sinif/id
+
+    a + a
+
+    Seçilen a'dan hemen sonra seçilen a'lar seçilir.
+
+    Önemli not;
+    a'nın içinden bir etiket değil!, sonra gelen
+   
+
+*/
+
+
+/* div'den hemen sonra gelen p etiketleri seçilsn*/
+div + b{
+    color: red;
+}
+
+/* div'in çocuğundan sonra gelen ol etiketi */
+
+div p + ol{
+    color: blue;
+}
+
+
+/* p'den sonra gelen ul etiketi*/
+p + ul{
+    font-size: 30px;
+}
+
+/* li'den sonra gelen li etiketi*/
+li + li{
+    color: red;
+}
+
+/* li'nin ul çocuğunun li çocuğundan
+sonra gelen li etiketi*/
+
+li > ul > li + li{
+    color: green;
+}
+
+/* h3'ten sonra gelen h4 */
+/*HTML dosyasında böyle bir yapı olmadığı
+için bu efekt uygulanmaz*/
+h3 + h4{
+    color: pink;
+}
+
+/* h4'ten hemen sonra paragraf sınıfı*/
+
+h4 + .paragraf{
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+
